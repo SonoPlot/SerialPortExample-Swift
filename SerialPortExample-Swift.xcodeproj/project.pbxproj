@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC05E5A319FFDFA5000EAD24 /* FakeSerialPort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC05E5A219FFDFA5000EAD24 /* FakeSerialPort.swift */; };
+		BC20779919E3734F00B6F5E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC20779819E3734F00B6F5E8 /* AppDelegate.swift */; };
+		BC20779B19E3734F00B6F5E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC20779A19E3734F00B6F5E8 /* Images.xcassets */; };
+		BC20779E19E3734F00B6F5E8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC20779C19E3734F00B6F5E8 /* MainMenu.xib */; };
+		BC2077B519E37F4F00B6F5E8 /* SerialPort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2077B419E37F4F00B6F5E8 /* SerialPort.swift */; };
+		BC2077B719E3815900B6F5E8 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2077B619E3815900B6F5E8 /* Result.swift */; };
+		BC2077B919E381ED00B6F5E8 /* ErrorTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2077B819E381ED00B6F5E8 /* ErrorTypes.swift */; };
+		BC2077C119E3934E00B6F5E8 /* ftd2xx.cfg in Resources */ = {isa = PBXBuildFile; fileRef = BC2077BD19E3934E00B6F5E8 /* ftd2xx.cfg */; };
+		BC2077C419E3937A00B6F5E8 /* ftd2xx.cfg in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = BC2077BD19E3934E00B6F5E8 /* ftd2xx.cfg */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		BC2077CA19E3951200B6F5E8 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2077C919E3951200B6F5E8 /* HelperFunctions.swift */; };
+		BC2077CE19E3A06300B6F5E8 /* SerialPort_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2077CD19E3A06300B6F5E8 /* SerialPort_Tests.swift */; };
+		BC2077D219E44C7700B6F5E8 /* Result_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2077D119E44C7700B6F5E8 /* Result_Tests.swift */; };
+		BC2077D319E45FEF00B6F5E8 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2077B619E3815900B6F5E8 /* Result.swift */; };
+		BC2077D419E45FF800B6F5E8 /* ErrorTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2077B819E381ED00B6F5E8 /* ErrorTypes.swift */; };
+		BC2077D519E45FFF00B6F5E8 /* SerialPort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2077B419E37F4F00B6F5E8 /* SerialPort.swift */; };
+		BC2077D619E4689400B6F5E8 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2077C919E3951200B6F5E8 /* HelperFunctions.swift */; };
+		BC26E5AB1A07385D00BC85C7 /* ftd2xx.cfg in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC2077BD19E3934E00B6F5E8 /* ftd2xx.cfg */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		BCC8A6081A2E3C8E004D597A /* libftd2xx.1.0.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC8A6071A2E3C8E004D597A /* libftd2xx.1.0.4.dylib */; };
+		BCC8A6091A2E3C8E004D597A /* libftd2xx.1.0.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC8A6071A2E3C8E004D597A /* libftd2xx.1.0.4.dylib */; };
+		BCC8A60A1A2E3CC9004D597A /* libftd2xx.1.0.4.dylib in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = BCC8A6071A2E3C8E004D597A /* libftd2xx.1.0.4.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		BCC8A60B1A2E3CD2004D597A /* libftd2xx.1.0.4.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCC8A6071A2E3C8E004D597A /* libftd2xx.1.0.4.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC2077A419E3734F00B6F5E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC20778B19E3734F00B6F5E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC20779219E3734F00B6F5E8;
+			remoteInfo = "SerialPortExample-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BC2077C319E3935E00B6F5E8 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BC2077C419E3937A00B6F5E8 /* ftd2xx.cfg in Copy Frameworks */,
+				BCC8A60A1A2E3CC9004D597A /* libftd2xx.1.0.4.dylib in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE30BA21A013AD400334674 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BC26E5AB1A07385D00BC85C7 /* ftd2xx.cfg in CopyFiles */,
+				BCC8A60B1A2E3CD2004D597A /* libftd2xx.1.0.4.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BC05E5A219FFDFA5000EAD24 /* FakeSerialPort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FakeSerialPort.swift; path = "../SerialPortExample-SwiftTests/FakeSerialPort.swift"; sourceTree = "<group>"; };
+		BC20779319E3734F00B6F5E8 /* SerialPortExample-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SerialPortExample-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC20779719E3734F00B6F5E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../SerialPortExample-Swift/Info.plist"; sourceTree = "<group>"; };
+		BC20779819E3734F00B6F5E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "SerialPortExample-Swift/AppDelegate.swift"; sourceTree = "<group>"; };
+		BC20779A19E3734F00B6F5E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../SerialPortExample-Swift/Images.xcassets"; sourceTree = "<group>"; };
+		BC20779D19E3734F00B6F5E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BC2077A319E3734F00B6F5E8 /* SerialPortExample-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SerialPortExample-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2077A819E3734F00B6F5E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../SerialPortExample-SwiftTests/Info.plist"; sourceTree = "<group>"; };
+		BC2077B419E37F4F00B6F5E8 /* SerialPort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SerialPort.swift; path = "../SerialPortExample-Swift/SerialPort.swift"; sourceTree = "<group>"; };
+		BC2077B619E3815900B6F5E8 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = "../SerialPortExample-Swift/Result.swift"; sourceTree = "<group>"; };
+		BC2077B819E381ED00B6F5E8 /* ErrorTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ErrorTypes.swift; path = "../SerialPortExample-Swift/ErrorTypes.swift"; sourceTree = "<group>"; };
+		BC2077BD19E3934E00B6F5E8 /* ftd2xx.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ftd2xx.cfg; path = "SerialPortExample-Swift/Frameworks/ftd2xx.cfg"; sourceTree = "<group>"; };
+		BC2077BE19E3934E00B6F5E8 /* ftd2xx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ftd2xx.h; path = "SerialPortExample-Swift/Frameworks/ftd2xx.h"; sourceTree = "<group>"; };
+		BC2077C019E3934E00B6F5E8 /* WinTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WinTypes.h; path = "SerialPortExample-Swift/Frameworks/WinTypes.h"; sourceTree = "<group>"; };
+		BC2077C619E3941700B6F5E8 /* SerialPortExample-Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SerialPortExample-Swift-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		BC2077C919E3951200B6F5E8 /* HelperFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HelperFunctions.swift; path = "../SerialPortExample-Swift/HelperFunctions.swift"; sourceTree = "<group>"; };
+		BC2077CD19E3A06300B6F5E8 /* SerialPort_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SerialPort_Tests.swift; path = "../SerialPortExample-SwiftTests/SerialPort_Tests.swift"; sourceTree = "<group>"; };
+		BC2077D119E44C7700B6F5E8 /* Result_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result_Tests.swift; path = "../SerialPortExample-SwiftTests/Result_Tests.swift"; sourceTree = "<group>"; };
+		BCC8A6071A2E3C8E004D597A /* libftd2xx.1.0.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libftd2xx.1.0.4.dylib; path = "SerialPortExample-Swift/Frameworks/libftd2xx.1.0.4.dylib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC20779019E3734F00B6F5E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC8A6081A2E3C8E004D597A /* libftd2xx.1.0.4.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2077A019E3734F00B6F5E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC8A6091A2E3C8E004D597A /* libftd2xx.1.0.4.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC20778A19E3734F00B6F5E8 = {
+			isa = PBXGroup;
+			children = (
+				BC2077CC19E39FEF00B6F5E8 /* Main interface */,
+				BC20779519E3734F00B6F5E8 /* Serial communication */,
+				BC2077A619E3734F00B6F5E8 /* SerialPortExample-SwiftTests */,
+				BC2077BC19E3933700B6F5E8 /* Frameworks */,
+				BC2077B319E3736800B6F5E8 /* Resources */,
+				BC20779419E3734F00B6F5E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC20779419E3734F00B6F5E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC20779319E3734F00B6F5E8 /* SerialPortExample-Swift.app */,
+				BC2077A319E3734F00B6F5E8 /* SerialPortExample-SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC20779519E3734F00B6F5E8 /* Serial communication */ = {
+			isa = PBXGroup;
+			children = (
+				BC2077B419E37F4F00B6F5E8 /* SerialPort.swift */,
+				BC2077B619E3815900B6F5E8 /* Result.swift */,
+				BC2077B819E381ED00B6F5E8 /* ErrorTypes.swift */,
+				BC2077C919E3951200B6F5E8 /* HelperFunctions.swift */,
+			);
+			name = "Serial communication";
+			path = "SerialPortExample-Swift";
+			sourceTree = "<group>";
+		};
+		BC20779619E3734F00B6F5E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC20779719E3734F00B6F5E8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC2077A619E3734F00B6F5E8 /* SerialPortExample-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC05E5A219FFDFA5000EAD24 /* FakeSerialPort.swift */,
+				BC2077D119E44C7700B6F5E8 /* Result_Tests.swift */,
+				BC2077CD19E3A06300B6F5E8 /* SerialPort_Tests.swift */,
+				BC2077A719E3734F00B6F5E8 /* Supporting Files */,
+			);
+			path = "SerialPortExample-SwiftTests";
+			sourceTree = "<group>";
+		};
+		BC2077A719E3734F00B6F5E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC2077A819E3734F00B6F5E8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC2077B319E3736800B6F5E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC20779A19E3734F00B6F5E8 /* Images.xcassets */,
+				BC20779619E3734F00B6F5E8 /* Supporting Files */,
+			);
+			name = Resources;
+			path = "SerialPortExample-Swift";
+			sourceTree = "<group>";
+		};
+		BC2077BC19E3933700B6F5E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC2077C619E3941700B6F5E8 /* SerialPortExample-Swift-Bridging-Header.h */,
+				BC2077BE19E3934E00B6F5E8 /* ftd2xx.h */,
+				BC2077C019E3934E00B6F5E8 /* WinTypes.h */,
+				BC2077BD19E3934E00B6F5E8 /* ftd2xx.cfg */,
+				BCC8A6071A2E3C8E004D597A /* libftd2xx.1.0.4.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC2077CC19E39FEF00B6F5E8 /* Main interface */ = {
+			isa = PBXGroup;
+			children = (
+				BC20779819E3734F00B6F5E8 /* AppDelegate.swift */,
+				BC20779C19E3734F00B6F5E8 /* MainMenu.xib */,
+			);
+			name = "Main interface";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC20779219E3734F00B6F5E8 /* SerialPortExample-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2077AD19E3734F00B6F5E8 /* Build configuration list for PBXNativeTarget "SerialPortExample-Swift" */;
+			buildPhases = (
+				BC20778F19E3734F00B6F5E8 /* Sources */,
+				BC20779019E3734F00B6F5E8 /* Frameworks */,
+				BC20779119E3734F00B6F5E8 /* Resources */,
+				BC2077C319E3935E00B6F5E8 /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SerialPortExample-Swift";
+			productName = "SerialPortExample-Swift";
+			productReference = BC20779319E3734F00B6F5E8 /* SerialPortExample-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC2077A219E3734F00B6F5E8 /* SerialPortExample-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2077B019E3734F00B6F5E8 /* Build configuration list for PBXNativeTarget "SerialPortExample-SwiftTests" */;
+			buildPhases = (
+				BC20779F19E3734F00B6F5E8 /* Sources */,
+				BC2077A019E3734F00B6F5E8 /* Frameworks */,
+				BC2077A119E3734F00B6F5E8 /* Resources */,
+				BCE30BA21A013AD400334674 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC2077A519E3734F00B6F5E8 /* PBXTargetDependency */,
+			);
+			name = "SerialPortExample-SwiftTests";
+			productName = "SerialPortExample-SwiftTests";
+			productReference = BC2077A319E3734F00B6F5E8 /* SerialPortExample-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC20778B19E3734F00B6F5E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "SonoPlot, Inc.";
+				TargetAttributes = {
+					BC20779219E3734F00B6F5E8 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					BC2077A219E3734F00B6F5E8 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = BC20779219E3734F00B6F5E8;
+					};
+				};
+			};
+			buildConfigurationList = BC20778E19E3734F00B6F5E8 /* Build configuration list for PBXProject "SerialPortExample-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC20778A19E3734F00B6F5E8;
+			productRefGroup = BC20779419E3734F00B6F5E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC20779219E3734F00B6F5E8 /* SerialPortExample-Swift */,
+				BC2077A219E3734F00B6F5E8 /* SerialPortExample-SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC20779119E3734F00B6F5E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC20779B19E3734F00B6F5E8 /* Images.xcassets in Resources */,
+				BC2077C119E3934E00B6F5E8 /* ftd2xx.cfg in Resources */,
+				BC20779E19E3734F00B6F5E8 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2077A119E3734F00B6F5E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC20778F19E3734F00B6F5E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2077CA19E3951200B6F5E8 /* HelperFunctions.swift in Sources */,
+				BC2077B719E3815900B6F5E8 /* Result.swift in Sources */,
+				BC2077B519E37F4F00B6F5E8 /* SerialPort.swift in Sources */,
+				BC2077B919E381ED00B6F5E8 /* ErrorTypes.swift in Sources */,
+				BC20779919E3734F00B6F5E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC20779F19E3734F00B6F5E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2077D319E45FEF00B6F5E8 /* Result.swift in Sources */,
+				BC2077D219E44C7700B6F5E8 /* Result_Tests.swift in Sources */,
+				BC2077D519E45FFF00B6F5E8 /* SerialPort.swift in Sources */,
+				BC2077D419E45FF800B6F5E8 /* ErrorTypes.swift in Sources */,
+				BC2077CE19E3A06300B6F5E8 /* SerialPort_Tests.swift in Sources */,
+				BC2077D619E4689400B6F5E8 /* HelperFunctions.swift in Sources */,
+				BC05E5A319FFDFA5000EAD24 /* FakeSerialPort.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC2077A519E3734F00B6F5E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC20779219E3734F00B6F5E8 /* SerialPortExample-Swift */;
+			targetProxy = BC2077A419E3734F00B6F5E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC20779C19E3734F00B6F5E8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC20779D19E3734F00B6F5E8 /* Base */,
+			);
+			name = MainMenu.xib;
+			path = "SerialPortExample-Swift";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC2077AB19E3734F00B6F5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/SerialPortExample-Swift/Frameworks";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode-61.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"SerialPortExample-Swift/Frameworks/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/SerialPortExample-Swift/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC2077AC19E3734F00B6F5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/SerialPortExample-Swift/Frameworks";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode-61.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"SerialPortExample-Swift/Frameworks/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/SerialPortExample-Swift/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BC2077AE19E3734F00B6F5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SerialPortExample-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SerialPortExample-Swift/Frameworks",
+				);
+				PRODUCT_NAME = "SerialPortExample-Swift";
+				SWIFT_OBJC_BRIDGING_HEADER = "SerialPortExample-Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC2077AF19E3734F00B6F5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SerialPortExample-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SerialPortExample-Swift/Frameworks",
+				);
+				PRODUCT_NAME = "SerialPortExample-Swift";
+				SWIFT_OBJC_BRIDGING_HEADER = "SerialPortExample-Swift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		BC2077B119E3734F00B6F5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SerialPortExample-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/SerialPortExample-Swift/Frameworks";
+				PRODUCT_NAME = "SerialPortExample-SwiftTests";
+				SWIFT_OBJC_BRIDGING_HEADER = "SerialPortExample-Swift-Bridging-Header.h";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SerialPortExample-Swift.app/Contents/MacOS/SerialPortExample-Swift";
+			};
+			name = Debug;
+		};
+		BC2077B219E3734F00B6F5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SerialPortExample-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/SerialPortExample-Swift/Frameworks";
+				PRODUCT_NAME = "SerialPortExample-SwiftTests";
+				SWIFT_OBJC_BRIDGING_HEADER = "SerialPortExample-Swift-Bridging-Header.h";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SerialPortExample-Swift.app/Contents/MacOS/SerialPortExample-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC20778E19E3734F00B6F5E8 /* Build configuration list for PBXProject "SerialPortExample-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2077AB19E3734F00B6F5E8 /* Debug */,
+				BC2077AC19E3734F00B6F5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC2077AD19E3734F00B6F5E8 /* Build configuration list for PBXNativeTarget "SerialPortExample-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2077AE19E3734F00B6F5E8 /* Debug */,
+				BC2077AF19E3734F00B6F5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC2077B019E3734F00B6F5E8 /* Build configuration list for PBXNativeTarget "SerialPortExample-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2077B119E3734F00B6F5E8 /* Debug */,
+				BC2077B219E3734F00B6F5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC20778B19E3734F00B6F5E8 /* Project object */;
+}
